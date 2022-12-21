@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>files</title>
+    <link rel="stylesheet" href="files.css">
+</head>
+
+<body>
+    <section id="big">
+        <input type="image" src="" id="bigIimg" onclick="sheoImage('img0')" height="300px" width="300px">
+
+    </section>
+    <input id="File1" type="file" multiple="multiple" onchange="readFile(event)" />
+    <!-- <input id="BrowserFile" type="file" multiple="multiple" onchange="showFileDetails(event)" /> -->
+    <section id="small">
+
+        <input type="image" src="" id="img0" onclick="sheoImage('img0')" class="img">
+        <input type="image" src="" id="img1" onclick="sheoImage('img1')" class="img">
+        <input type="image" src="" id="img2" onclick="sheoImage('img2')" class="img">
+        <input type="image" src="" id="img3" onclick="sheoImage('img3')" class="img">
+        <input type="image" src="" id="img4" onclick="sheoImage('img4')" class="img">
+        <input type="image" src="" id="img5" onclick="sheoImage('img5')" class="img">
+        <input type="image" src="" id="img6" onclick="sheoImage('img6')" class="img">
+        <input type="image" src="" id="img7" onclick="sheoImage('img7')" class="img">
+        
+    </section>
+    <section id="sec"></section>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <br>
+    <a href="#" class="previous round" onclick="(moveBack())">&#8249;</a>
+    <a href="#" class="next round" onclick="(moveForward())">&#8250;</a>
+    
+    
+
+
+    <script src="files.js"></script>
+</body>
+
+</html>
